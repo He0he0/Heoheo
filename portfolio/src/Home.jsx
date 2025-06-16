@@ -1,5 +1,9 @@
 import "./Home.css"
-import headshot from "../public/headshot.png"
+import headshot from "/headshot.png"
+import gicon from "/gmail-icon.webp"
+import linkedin from "/link-black.png"
+import gitIcon from "/github-white.png"
+
 
 const HomePage = () => 
 {
@@ -17,7 +21,15 @@ const HomePage = () =>
                 </div>
             </div>
             <div className="icons-links">
-                <p>My links:</p>
+                <a href="https://www.linkedin.com/in/dylan-truong27/">  
+                    <img src={linkedin} alt="Linkedin" className="link-icon"/>
+                </a>
+                <a href="https://github.com/He0he0"> 
+                    <img src={gitIcon} alt="github" className="link-icon"/>
+                </a>
+                <a href="mailto:dylantruong5@gmail.com">
+                    <img src={gicon} alt="gmail" className="link-icon"/>
+                </a>
             </div>
         </>
     )

@@ -36,3 +36,20 @@ margin-top: 45px;
       height: 300px;
     }
   }
+
+  .link-icon
+  {
+    width: 70px;
+    height: 70px;
+    max-width: 40vw;
+    max-height: 40vw;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .icons-links
+  {
+    display: flex;
+    gap: 1.5rem; 
+    padding-left: 15px;
+  }
+ 
