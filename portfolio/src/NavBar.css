@@ -1,15 +1,18 @@
 .navbar {
     display: flex;
-    align-items: center; 
-    background-color: #b39eb5;
+    justify-content: space-between;
     color: #fff;
     width: 100%;
     padding: 0 1rem; 
-    position: sticky;
+    left: 0;
     top: 0;
     z-index: 10;
     height: 55px; 
     gap: 1rem; 
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px 0px #00000040;
   }
   
   .navbar-left {
@@ -18,15 +21,10 @@
     align-items: center;
   }
   
-  .navbar-center-flex { 
-    flex-grow: 1; 
-    display: flex;
-    justify-content: center; 
-    min-width: 0; 
-  }
+
   
   .navbar-right {
-    flex-shrink: 0;
+    margin-right: 5rem;
     display: flex;
     align-items: center;
   }
@@ -46,31 +44,24 @@
   }
   
   .navbar-right ul li a {
-    color: white;
+    color: rgb(43, 42, 42);
     text-decoration: none;
     padding: 0.7rem 0.5rem; 
     display: block; 
     white-space: nowrap; 
+    font-size: 22px;
   }
   
   .navbar-left .logo {
-    font-size: 1.5rem;
+    font-size: 25px;
     font-weight: bold;
-    color: #fff;
+    color: #1c1b1b;
     text-decoration: none;
     white-space: nowrap;
+    margin-left: 5rem;
   }
   
-  /*
-  .navbar-center {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-  }
-  */
+
   
   .navbar li:hover a { 
     background-color: #d6cad7; 
