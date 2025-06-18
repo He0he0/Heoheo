@@ -44,6 +44,19 @@ const ExperiencePage = () =>
                 </p>
                 <div className="experience-card">
                     <div className="experience-left">
+                        <b><p>Adblock Lab Lead</p></b>
+                    </div>
+                    <div className="experience-right">
+                        <i><p>September 2024  - Decemeber 2024</p></i>
+                    </div>
+                </div>
+                <p>
+                    Led a team of 20+ students in developing dynamic Adblock software using JavaScript, fostering a collaborative and hands-on learning environment.
+                    Mentored peers through all stages of project development, providing technical guidance and support.
+                    Delivered presentations at the ACM Cyber x AI Symposium, effectively communicating complex technical concepts to a broad audience.
+                 </p>
+                <div className="experience-card">
+                    <div className="experience-left">
                         <b><p>Student Researcher</p></b>
                         <p>Cyber Summer Research Fellowship (CSURF) </p>
                     </div>
