@@ -1,0 +1,70 @@
+h1, h2 {
+    margin-top: 1.25rem; 
+    margin-bottom: 0.75rem; 
+  }
+  
+  p {
+    margin: 0.5rem 0; 
+    line-height: 1.4;  
+  }
+  
+  hr {
+    margin: 1.25rem 0; 
+  }
+  
+  .experience-card,
+  .work-entry {
+    margin-bottom: 1rem; 
+  }
+
+
+.content-wrapper{
+  max-width: 1100px;
+  margin-top: 25rem;
+}
+
+.content-wrapper h2,h1
+{
+    color:palevioletred;
+}
+
+.experience-card
+{
+  width: 100%;
+}
+
+.experience-card::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.experience-left
+{
+    float: left;
+    max-width: 52%;
+} 
+
+.experience-right
+{
+float: right;
+  text-align: right;
+  max-width: 45%;
+}
+
+.experience-card p
+{
+    margin: block 0.25rem;
+
+}
+
+.experience-card > p
+{
+  max-width: 100%;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+
+  
