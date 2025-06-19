@@ -1,0 +1,60 @@
+h1, h2 {
+    margin-top: 1.25rem; 
+    margin-bottom: 0.75rem; 
+  }
+  
+p {
+margin: 0.5rem 0; 
+line-height: 1.4;  
+}
+
+hr {
+margin: 1.25rem 0; 
+}
+
+
+.content-wrapper-projects{
+    max-width: 1100px;
+    margin-top: 12rem; 
+}
+.content-wrapper h2,h1
+{
+    color:palevioletred;
+}
+
+
+.project-card {
+    margin-bottom: 1rem; 
+    width: 100%;
+}
+.project-card::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .project-left
+{
+    float: left;
+    max-width: 52%;
+} 
+
+.project-right
+{
+  float: right;
+  text-align: right;
+  max-width: 45%;
+}
+
+.project-card p
+{
+    margin: block 0.25rem;
+
+}
+
+.project-card > p
+{
+  max-width: 100%;
+  width: 100%;
+  overflow-wrap: break-word;
+}
