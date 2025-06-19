@@ -1,4 +1,4 @@
-import  "./Projects.css"
+import "./Projects.css"
 
 const ProjectsPage = () => 
 {
@@ -19,14 +19,14 @@ const ProjectsPage = () =>
                 </div>
             </div>
             <p>
-            Built a responsive recipe-sharing website with features for uploading, browsing, and searching recipes by cuisine or dietary preferences. 
-            Developed interactive components using React and connected to a SQL backend. 
-            Collaborated with a team of 5 to implement features and integrate feedback into the development process.
+                Built a responsive recipe-sharing website with features for uploading, browsing, and searching recipes by cuisine or dietary preferences. 
+                Developed interactive components using React and connected to a SQL backend. 
+                Collaborated with a team of 5 to implement features and integrate feedback into the development process.
             </p>
             <div className="project-wrapper"> 
                 <div className="project-card">
                     <div className="project-left">
-                        <b><p>Bruinbear Robot - Controls and Sensing Subteam</p></b>
+                        <b><p>BruinBear Robot - Controls and Sensing Subteam</p></b>
                         <i><p>Python, OpenCV, ROS2</p></i>
                     </div>
                     <div className="project-right">
@@ -57,7 +57,7 @@ const ProjectsPage = () =>
                 <div className="project-card">
                     <div className="project-left">
                         <b><p>Secure SQLite Library</p></b>
-                        <i><p>SQL, Javascript </p></i>
+                        <i><p>SQL, JavaScript</p></i>
                     </div>
                     <div className="project-right">
                         <i><p>March 2024  - June 2024</p></i>
@@ -72,7 +72,7 @@ const ProjectsPage = () =>
                 <div className="project-card">
                     <div className="project-left">
                         <b><p>Malware Simulation</p></b>
-                        <i><p>Python, Linux </p></i>
+                        <i><p>Python, Linux</p></i>
                     </div>
                     <div className="project-right">
                         <i><p>January 2023  - March 2024</p></i>

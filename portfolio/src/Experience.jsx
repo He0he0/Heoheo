@@ -1,12 +1,11 @@
 import "./Experience.css"
 
-
 const ExperiencePage = () => 
 {
     return (
         <div className="content-wrapper"> 
             <h1>Experience</h1>
-            <p> Below is a list of my professional experience. Feel free to also check out my linkedin for more information.</p>
+            <p> Below is a list of my professional experience. Feel free to also check out my LinkedIn for more information.</p>
             <hr/>
             <div className="education-wrapper"> 
                 <u><h2>Education</h2></u>
@@ -32,7 +31,7 @@ const ExperiencePage = () =>
                 <div className="experience-card">
                     <div className="experience-left">
                         <b><p>Student Researcher</p></b>
-                        <p>UCLA  Security and Networking (ScaN) Lab </p>
+                        <p>UCLA Security and Networking (ScaN) Lab </p>
                     </div>
                     <div className="experience-right">
                         <i><p>December 2024  -  June 2025</p></i>
@@ -47,14 +46,14 @@ const ExperiencePage = () =>
                         <b><p>Adblock Lab Lead</p></b>
                     </div>
                     <div className="experience-right">
-                        <i><p>September 2024  - Decemeber 2024</p></i>
+                        <i><p>September 2024  - December 2024</p></i>
                     </div>
                 </div>
                 <p>
                     Led a team of 20+ students in developing dynamic Adblock software using JavaScript, fostering a collaborative and hands-on learning environment.
                     Mentored peers through all stages of project development, providing technical guidance and support.
                     Delivered presentations at the ACM Cyber x AI Symposium, effectively communicating complex technical concepts to a broad audience.
-                 </p>
+                </p>
                 <div className="experience-card">
                     <div className="experience-left">
                         <b><p>Student Researcher</p></b>
@@ -70,9 +69,7 @@ const ExperiencePage = () =>
                     Spearheaded the development of CamNode, a Java-based port of the CamBench benchmark for detecting cryptographic API misuse.
                 </p>
             </div>
-            <p>
-                
-            </p>
+            <p></p>
 
             <hr/>
             <div className="workexperience-wrapper" >
