@@ -3,6 +3,7 @@ import headshot from "/headshot.png"
 import gicon from "/gmail-icon.webp"
 import linkedin from "/link-black.png"
 import gitIcon from "/github-white.png"
+import { Link } from "react-router-dom";
 
 
 const HomePage = () => 
@@ -16,7 +17,7 @@ const HomePage = () =>
                     <p>
                         Hi, I am Dylan Truong! I am currently a Computer Science major at the Henry Samueli School of Engineering & Applied Sciences at UCLA.
                         I am currently exploring my interest in technology but right now I am am currently interested in conduting udnergraduate research, Computer vision,
-                        as well as robotics. This is my personal website where I share my <a href="/projects">projects</a> I have worked on in the past and my professional <a href="/experience">experience</a>. Make sure to check them out while you are here!
+                        as well as robotics. This is my personal website where I share my <Link to="/projects">projects</Link> I have worked on in the past and my professional <Link to="/experience">experience</Link>. Make sure to check them out while you are here!
                     </p>
                 </div>
             </div>
