@@ -16,7 +16,7 @@ const HomePage = () =>
                 <h2>About Me: </h2>
                     <p>
                         Hi, I am Dylan Truong! I am currently a Computer Science major at the Henry Samueli School of Engineering & Applied Sciences at UCLA.
-                        I am currently exploring my interest in technology but right now I am am currently interested in conduting udnergraduate research, Computer vision,
+                        I am currently exploring my interest in technology but right now I am am currently interested in conduting undergraduate research, Computer vision,
                         as well as robotics. This is my personal website where I share my <Link to="/projects">projects</Link> I have worked on in the past and my professional <Link to="/experience">experience</Link>. Make sure to check them out while you are here!
                     </p>
                 </div>
